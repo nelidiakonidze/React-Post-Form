@@ -1,33 +1,71 @@
-.App {
+.FavFilm {
+background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+height: 100vh;
+}
+#root {
+  height: 100%;
+}
+.Film {
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.title {
+  font-family: 'Codystar', cursive;
+  color: whitesmoke;
+  font-size: 80px;
+}
+
+.legend {
+  font-size: 50px;
+  font-family: 'Comfortaa', cursive;
+  color: rgb(153, 65, 167);
   text-align: center;
+  padding: 13px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form-data {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
   color: white;
+  padding: 15px; 
 }
 
-.App-link {
-  color: #61dafb;
+#name {
+  width: 400px;
+  height: 30px;
+  border-radius: 15px;
+  border-color: aqua;
+  margin-left:30px;
+}
+#poster {
+  width: 400px;
+  height: 30px;
+  border-radius: 15px;
+  border-color: aqua;
+  margin-left:30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#comment {
+  width: 400px;
+  height: 60px;
+  border-radius: 15px;
+  border-color: aqua;
+  margin-left:30px;
+}
+
+.button {
+  width: 300px;
+  height: 10vh;
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  border-radius: 45px;
+  border-color: rgb(245, 247, 247);
+  color: rgb(153, 65, 167);
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+
 }
